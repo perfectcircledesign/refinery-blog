@@ -2,7 +2,7 @@
 
 Simple blog engine for [Refinery CMS](http://refinerycms.com). It supports posts, categories and comments.
 
-This version of `refinerycms-blog` supports Refinery 4.x and Rails 5.1.x (Ruby 2.2+). To use Rails 4.x / Refinery 3.1.x / Ruby 2.1 or older use the [refinerycms-blog "Refinery CMS 3-0 stable branch"](http://github.com/refinery/refinerycms-blog/tree/3-0-stable).
+This version of `refinerycms-blog` supports Refinery 4.x and Rails 6.0.3.4 (Ruby 2.6.2).
 
 Options:
 
@@ -11,7 +11,7 @@ Options:
 
 ## Requirements
 
-Refinery CMS version 4.0.0 or above (Ruby 2.2 or above).
+Refinery CMS version 4.0.0 or above (Rails 6.0.3.4 | Ruby 2.6.2).
 
 ## Install
 
@@ -19,7 +19,7 @@ Open up your ``Gemfile`` and at the bottom, add this line:
 
 
 ```ruby
-gem 'refinerycms-blog', git: 'https://github.com/refinery/refinerycms-blog', branch: 'master'
+gem 'refinerycms-blog', git: 'https://github.com/perfectcircledesign/refinery-blog', branch: 'master'
 ```
 
 Note: if the [refinerycms-page-images](https://github.com/refinery/refinerycms-page-images) extension is also installed, make sure `gem refinerycms-blog` comes before `gem 'refinerycms-page-images'`.
