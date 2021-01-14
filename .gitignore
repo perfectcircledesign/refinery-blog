@@ -1,0 +1,59 @@
+.bundle
+*.gem
+*.DS_Store
+
+# Documentation
+doc/api
+doc/app
+doc/*
+.yardoc
+.yardopts
+
+# Refinery Specific
+*.tmproj
+*.autobackupbyrefinery.*
+/refinerycms-blog*.gem
+.autotest
+spec/dummy
+
+# Mac
+.DS_Store
+
+# NetBeans
+nbproject
+
+# Eclipse
+.project
+
+# Redcar
+.redcar
+
+# Rubinius
+*.rbc
+
+# Vim
+*.swp
+*.swo
+
+# RubyMine
+.idea
+
+# Backup
+*~
+
+# Capybara Bug
+capybara-*html
+
+# rvm
+.rvmrc
+.ruby-version
+.ruby-gemset
+
+#rbenv
+.rbenv-version
+
+Gemfile.lock
+.rbx
+
+# Local Gemfile for developing without sharing dependencies
+.gemfile
