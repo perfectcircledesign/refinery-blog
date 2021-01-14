@@ -1,4 +1,6 @@
-<% content_for :stylesheets, stylesheet_link_tag("refinery/blog/ui-lightness/jquery-ui-1.8.13.custom") %>
+<% content_for :stylesheets do %>
+    <link rel="stylesheet" media="screen" href="/assets/refinery/blog/ui-lightness/jquery-ui-1.8.13.custom.css">
+<% end %>
 <% content_for :javascripts do %>
 <script>
   function split(val) {
